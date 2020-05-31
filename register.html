@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Use GET to retrieve the query string -->
+	<form method = "GET">
+		<a href ="index.html"><h1>Life with Kibbi</h1></a><br>
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Date of Birth: <input type="date" required name ="birthday"><br>
+		Email: <input type="email" required name ="email"><br>
+		Password: <input type="password" min="5" name= "password"><br>
+		Gender:<br>
+		<input type = "radio" name= "gender" value = "male">Male<br>
+		<input type = "radio" name= "gender" value = "female">Female<br>
+		<input type = "radio" name= "gender" value = "gay">Gay<br>
+		<input type = "radio" name= "gender" value = "gay">Queer<br>
+		<input type = "radio" name= "gender" value = "gay">Gay as fuck<br>
+		<input type = "radio" name= "gender" value = "gay">Other<br>
+		Cars:
+		<select>
+			<option value="volvo">Volvo</option>
+			<option value="Audi">Audi</option>
+			<option value="Other">Other</option>
+			<option value="None">No car</option>
+		</select>
+		<br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+	<br>
+</body>
+</html>
