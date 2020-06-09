@@ -18,6 +18,13 @@
 	height: 270px;
 }
 
+.color1{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
 /*.landing{
 	display:flex;
 	flex-wrap: wrap;
@@ -54,6 +61,25 @@ h1{
 body{
 	margin: 0px;
 }
+
+.landing{
+	font-size: xx-large;
+	color: rgb(255, 102, 255);
+	font-weight: bold;
+}
+
+.cow::after {
+  content: "";
+  background: url(cow.jpg);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 
 a{
 	text-decoration: none;
