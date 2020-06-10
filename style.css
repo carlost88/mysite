@@ -36,6 +36,8 @@
   width: 50%;
 	width: 400px;
 	height: 270px;
+	position: relative; /* Declared position allows for location changes */
+    top: -100px; /* Moves the image 2px closer to the top of the page */
 }
 
 .color1{
@@ -82,8 +84,8 @@ h1{
 	text-align: center;
 	box-shadow: 5px 5px 5px;
 	text-decoration: none;
-	/* background-color: white;
-	border: solid rgb(243, 81, 243) 2px; */
+	 background-color: white;
+	border: solid black 2px; 
 }
 
 h5 {
@@ -111,7 +113,7 @@ body{
 .cow::after {
   content: "";
   background: url(cow.jpg);
-  opacity: 0.3;
+  /*opacity: 0.3;*/
   top: 0;
   left: 0;
   bottom: 0;
