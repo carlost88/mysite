@@ -5,9 +5,18 @@
 }*/
 .container{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr))
 }
 
+.registering{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+}
 
 .babyBull > img{
 	display: block;
@@ -25,12 +34,11 @@
   font-size: 18px;
 }
 
-/*.landing{
-	display:flex;
-	flex-wrap: wrap;
-	margin: auto;
-  width: 0%;
-}*/
+.landing{
+	background-color: white;
+	width: 300px;
+	border: solid black 2px;
+}
 
 .container > img{
 	width: 400px;
@@ -50,13 +58,26 @@ a, a:visited, a:hover, a:active {
 h1{
 	font-family: fantasy;
 	font-size: 3em;
-	border-bottom: 1.5px solid yellow;
+	/* border-bottom: 3px solid white; */
 	width: 380px;
 	text-align: center;
 	box-shadow: 5px 5px 5px;
-	text-decoration: none
-
+	text-decoration: none;
+	/* background-color: white;
+	border: solid rgb(243, 81, 243) 2px; */
 }
+
+h5 {
+	font-family: fantasy;
+	font-size: 3em;
+	/* border-bottom: 3px solid white; */
+	width: 380px;
+	text-align: center;
+	box-shadow: 5px 5px 5px;
+	text-decoration: none;
+	/* background-image: url(cow.jpg) no-repeat; */
+
+ }
 
 body{
 	margin: 0px;
@@ -64,7 +85,7 @@ body{
 
 .landing{
 	font-size: xx-large;
-	color: rgb(255, 102, 255);
+	color: rgb(243, 81, 243);
 	font-weight: bold;
 }
 
@@ -79,6 +100,7 @@ body{
   position: absolute;
   z-index: -1;   
 }
+
 
 
 a{
