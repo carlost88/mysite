@@ -45,10 +45,18 @@
   font-size: 18px;
 }
 
+.giraffe{
+	position: absolute;
+  top: -30px;
+  right: -60px;
+  font-size: 18px;
+}
+
 .landing{
 	background-color: white;
 	width: 300px;
 	border: solid black 2px;
+	padding: 10px;
 }
 
 .container > img{
