@@ -124,7 +124,7 @@ body{
 .cow::after {
   content: "";
   background: url(cow.jpg);
-  /*opacity: 0.3;*/
+  /* opacity: 0.3; */
   top: 0;
   left: 0;
   bottom: 0;
