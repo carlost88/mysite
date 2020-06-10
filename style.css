@@ -29,6 +29,17 @@
   font-size: x-large;
 }
 
+.registering3{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  font-size: x-large;
+}
+
 .babyBull > img{
 	display: block;
   margin-left: auto;
