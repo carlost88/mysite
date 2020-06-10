@@ -18,6 +18,17 @@
   line-height: 20px;
 }
 
+.registering2{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+  font-size: x-large;
+}
+
 .babyBull > img{
 	display: block;
   margin-left: auto;
