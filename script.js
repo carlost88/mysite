@@ -7,4 +7,4 @@ body.style.background = color1.value;
 
 
 
-color1.addEventListener("input", setBackground);
+// color1.addEventListener("input", setBackground);
