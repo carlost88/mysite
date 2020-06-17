@@ -9,7 +9,8 @@ const bull = document.querySelector('#bull');
 // }
 
 const bull2 = document.createElement('img'); 
-bull2.src = 'bull2.png';
+bull2.src ="bull2.png";
+
 let displayedImage = false;
 
 const disappear = (e) => {

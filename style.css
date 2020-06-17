@@ -18,6 +18,8 @@
   line-height: 20px;
 }
 
+
+
 .registering2{
 	background-color: white;
 	width: 380px;
@@ -38,6 +40,14 @@
   margin-right: auto;
   line-height: 25px;
   font-size: x-large;
+}
+
+.getToKnow{
+  text-decoration: underline;
+}
+
+.meetPeople{
+  margin-top : 0;
 }
 
 .babyBull > img{
