@@ -80,10 +80,10 @@
   width: 50%;
 	width: 200px;
 	height: 270px;
-	position: relative; /* Declared position allows for location changes */
-    top: -360px; /* Moves the image 2px closer to the top of the page */
+	position: absolute; /* Declared position allows for location changes */
+    top: 0px; /* Moves the image 2px closer to the top of the page */
+    right: 485px;
 }
-
 .color1{
 	position: absolute;
   top: 8px;
