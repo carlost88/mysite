@@ -107,6 +107,16 @@ h1{
 	text-decoration: none;
 	 background-color: white;
 	border: solid black 2px; 
+	color: rgb(81,42,123);
+}
+
+h2{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  color: white;
+}
 }
 
 h5 {

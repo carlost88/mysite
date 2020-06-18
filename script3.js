@@ -1,13 +1,8 @@
 imgHolder = document.querySelector('.babyBull');
-// const bull = img = document.createElement('img'); 
-// bull.src = 'bull.png';
+coordinates = document.querySelector('h2');
+title = document.querySelector('h1');
 
 const bull = document.querySelector('#bull');
-
-// const sayMoo = () => {
-// alert('moo');
-// }
-
 const bull2 = document.createElement('img'); 
 bull2.src ="bull2.png";
 
@@ -15,14 +10,28 @@ let displayedImage = false;
 
 const disappear = (e) => {
     displayedImage = !displayedImage;
-    console.log(e) // this gives us the event object
     if (displayedImage){
         imgHolder.replaceChild(bull2, bull);
-        // alert('Moo!');
     } else {
         imgHolder.replaceChild(bull, bull2);
-        // alert('I love you, Kobbi');
     }
 }
 
+const getCoords = (e) => {
+	coordinates.textContent = `X: ${e.offsetX} Y: ${e.offsetY}`;
+}
+
+const colorChange = (e) => {
+	title.style.color = `rgb(${e.offsetX}, 45, ${e.offsetY})`;
+}
+
+const colorChangeBlack = (e) => {
+	title.style.color = 'black';
+}
+
+bull.addEventListener('mousemove', colorChange);
+bull.addEventListener('mouseout', colorChangeBlack);
+bull2.addEventListener('mousemove', colorChange);
+bull2.addEventListener('mouseout', colorChangeBlack);
 imgHolder.addEventListener('click', disappear);
+document.querySelector('body').addEventListener('mousemove', getCoords);
