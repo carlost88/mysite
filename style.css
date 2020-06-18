@@ -20,9 +20,9 @@
 
 
 
-.registering2{
+.kibbi-about{
 	background-color: white;
-	width: 380px;
+	width: 480px;
 	padding:34px;
 	border: solid black 2px;
 	margin-left: auto;
@@ -32,6 +32,17 @@
 }
 
 .registering3{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  font-size: x-large;
+}
+
+.about{
 	background-color: white;
 	width: 330px;
 	padding:34px;
