@@ -31,6 +31,6 @@ const colorChangeBlack = (e) => {
 }
 
 disco.addEventListener('mousemove', colorChange);
-disco.addEventListener('mouseout', colorChangeBlack);
+disco.addEventListener('mouseleave', colorChangeBlack);
 imgHolder.addEventListener('click', disappear);
 document.querySelector('body').addEventListener('mousemove', getCoords);
