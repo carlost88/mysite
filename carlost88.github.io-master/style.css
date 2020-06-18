@@ -1,0 +1,198 @@
+/*.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}*/
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr))
+}
+
+.registering{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+}
+
+
+
+.kibbi-about{
+	background-color: white;
+	width: 480px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+  font-size: x-large;
+}
+
+.registering3{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  font-size: x-large;
+}
+
+.about{
+	background-color: white;
+	width: 330px;
+	padding:34px;
+	border: solid black 2px;
+	margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  font-size: x-large;
+}
+
+.getToKnow{
+  text-decoration: underline;
+}
+
+.meetPeople{
+  margin-top : 0;
+}
+
+.babyBull > img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	width: 400px;
+	height: 270px;
+	position: absolute; /* Declared position allows for location changes */
+    top: 260px; /* Moves the image 2px closer to the top of the page */
+    right: 400px;
+}
+
+.disco > img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	width: 200px;
+	height: 270px;
+	position: absolute; /* Declared position allows for location changes */
+    top: 0px; /* Moves the image 2px closer to the top of the page */
+    right: 485px;
+}
+.color1{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.giraffe{
+	position: absolute;
+  top: -30px;
+  right: -60px;
+  font-size: 18px;
+}
+
+.landing{
+	background-color: white;
+	width: 300px;
+	border: solid black 2px;
+	padding: 10px;
+}
+
+.container > img{
+	width: 400px;
+	height: 270px;
+	margin:5px;
+	transition: 0.8s;
+}
+
+.container > img:hover{
+	box-shadow: 5px 5px 5px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	/* border-bottom: 3px solid white; */
+	width: 380px;
+	text-align: center;
+	box-shadow: 5px 5px 5px;
+	text-decoration: none;
+	 background-color: white;
+	border: solid black 2px; 
+}
+
+h2{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  color: white;
+}
+}
+
+h5 {
+	font-family: fantasy;
+	font-size: 3em;
+	/* border-bottom: 3px solid white; */
+	width: 380px;
+	text-align: center;
+	box-shadow: 5px 5px 5px;
+	text-decoration: none;
+	/* background-image: url(cow.jpg) no-repeat; */
+
+ }
+
+body{
+	margin: 0px;
+}
+
+.landing{
+	font-size: xx-large;
+	color: rgb(243, 81, 243);
+	font-weight: bold;
+}
+
+.cow::after {
+  content: "";
+  background: url(cow.jpg);
+  /* opacity: 0.3; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: right;
+}
+
+.font1{
+	text-align: center;
+	font-family: 'Baloo Bhaina 2', cursive;
+	margin: 10px;
+}
