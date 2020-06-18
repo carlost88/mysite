@@ -69,7 +69,7 @@
 	width: 400px;
 	height: 270px;
 	position: absolute; /* Declared position allows for location changes */
-    top: 260px; /* Moves the image 2px closer to the top of the page */
+    top: 265px; /* Moves the image 2px closer to the top of the page */
     right: 400px;
 }
 

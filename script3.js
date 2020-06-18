@@ -1,7 +1,8 @@
 imgHolder = document.querySelector('.babyBull');
 coordinates = document.querySelector('h2');
 title = document.querySelector('h1');
-disco = document.querySelector('.disco')
+disco = document.querySelector('.disco');
+landing = document.querySelector('.landing');
 
 const bull = document.querySelector('#bull');
 const bull2 = document.createElement('img'); 
@@ -24,10 +25,12 @@ const getCoords = (e) => {
 
 const colorChange = (e) => {
 	title.style.color = `rgb(${e.offsetX}, 45, ${e.offsetY})`;
+	landing.style.color = `rgb(${e.offsetY}, ${e.offsetX}, 45)`;
 }
 
 const colorChangeBlack = (e) => {
 	title.style.color = 'black';
+	landing.style.color = `rgb(243, 81, 243)`;
 }
 
 disco.addEventListener('mousemove', colorChange);
