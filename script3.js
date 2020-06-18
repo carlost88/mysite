@@ -1,6 +1,7 @@
 imgHolder = document.querySelector('.babyBull');
 coordinates = document.querySelector('h2');
 title = document.querySelector('h1');
+disco = document.querySelector('.disco')
 
 const bull = document.querySelector('#bull');
 const bull2 = document.createElement('img'); 
@@ -29,9 +30,7 @@ const colorChangeBlack = (e) => {
 	title.style.color = 'black';
 }
 
-bull.addEventListener('mousemove', colorChange);
-bull.addEventListener('mouseout', colorChangeBlack);
-bull2.addEventListener('mousemove', colorChange);
-bull2.addEventListener('mouseout', colorChangeBlack);
+disco.addEventListener('mousemove', colorChange);
+disco.addEventListener('mouseout', colorChangeBlack);
 imgHolder.addEventListener('click', disappear);
 document.querySelector('body').addEventListener('mousemove', getCoords);
